@@ -1,6 +1,6 @@
 import React from "react";
-import CurrentWeatherComponent from "../currentWeatherComponent/currentWeatherComponent";
-import SearchComponent from "../SearchComponent/searchComponent";
+import CurrentWeatherComponent from "../currentWeatherComponent/currentWeatherComponent.js";
+import SearchComponent from "../SearchComponent/searchComponent.js";
 import "./weatherComponent.style.scss";
 
 const WeatherComponent = () => {

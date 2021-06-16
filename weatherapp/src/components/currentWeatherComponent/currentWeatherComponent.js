@@ -1,6 +1,6 @@
 import React from "react";
-import WeeklyWeather from "../weeklyWeather/weeklyWeather";
-import CurrentDayComponent from '../currentDayComponent/currentDayComponent';
+import WeeklyWeather from "../weeklyWeather/weeklyWeather.js";
+import CurrentDayComponent from '../currentDayComponent/currentDayComponent.js';
 import "./currentWeatherComponent.style.scss";
 
 

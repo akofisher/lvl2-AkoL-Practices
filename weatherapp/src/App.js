@@ -1,5 +1,5 @@
 import React from 'react';
-import WeatherComponent from './components/weatherComponent/weatherComponent';
+import WeatherComponent from './components/weatherComponent/weatherComponent.js';
 import './App.scss';
 
 function App() {
