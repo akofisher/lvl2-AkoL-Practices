@@ -26,7 +26,7 @@ const currentWeatherComponent = (props) => {
             );
           })
         ) : (
-          <div>loading</div>
+         <div class="lds-dual-ring"></div>
         )}
       </div>
     </div>
