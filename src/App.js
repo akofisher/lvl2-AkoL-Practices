@@ -1,14 +1,20 @@
-import React from 'react';
-import WeatherComponent from './components/weatherComponent/weatherComponent.js';
-import './App.scss';
+import './App.scss'
+import React, { useState } from 'react'
+import { closeMedia } from './components/closeMedia/closeMedia'
+import { getContent } from './components/getContent/getContent'
+import { openMedia } from './components/openMedia/openMedia'
+import { toggleOverlay } from './components/toggleOverlay/toggleOverlay'
 
-function App() {
-
+const API = () => {
   return (
-    <div className="App">
-     <WeatherComponent />
+    <div className="API">
+      <div className="container"></div>
+      <div className="artist"></div>
+      <input autoFocus id="search" placeHolder="Artist..." type="text" />
+      <div className="overlay"></div>
+      <div className="media hidden"></div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default API
